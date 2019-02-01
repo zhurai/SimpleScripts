@@ -1,15 +1,39 @@
-﻿#NoEnv
-; #Warn
+﻿; Vysor AHK Script
+; Game=Dragalia Lost 
+
+; Vysor Settings
+;    Pin Title Bar=True
+;    Navigation Bar=False
+;    Full Screen=False
+;    Pin Title Bar=True
+
+; Game Settings
+;    Show Status Bar = On
+;    Show Navigation Bar = On
+
+; Other Notes
+;    Randomizes so I'm not clicking a single pixel...
+
+; HotKey Settings
+;    F2 = Pause
+;    ` = Auto
+;    Escape = menu
+;    Space = Dragon
+;    #1-#3 = Skills
+;    #4 = Skill (Solo), Sticker (Co-Op) 
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+; Main Settings
+#NoEnv
 SendMode Input 
 SetWorkingDir %A_ScriptDir%  
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
-; NOTES: specific Char1-4 clicking is buggy
-; NOTES: with default f10
+; Global
 
-
-;Enable Script / Disable Script (Global) - Win+F1
+;Enable Script / Disable Script (Global)
 #F2::
 Pause
 Suspend
@@ -17,10 +41,10 @@ return
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
+; Vysor Only Hotkeys
+
 #IfWinActive mobile
 SetControlDelay -1
-
-; 948x 21y 481w 1031h
 
 ; Auto 411,232 -> 433,256
 `::
