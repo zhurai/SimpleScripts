@@ -14,7 +14,7 @@ Loop {
 }
 
 
-#IfWinActive mobile - dragalia 
+#IfWinActive mobile - dragalia
 SetControlDelay -1
 
 1:: ; Skill 1 - 143,920 -> 192,960
@@ -41,15 +41,9 @@ Random,y,915,938
 ControlClick, % "x" x " y" y,mobile - dragalia,,,,NA Pos
 return
 
-Space:: ; Dragon - 44,786 -> 85,821 
+Space:: ; Dragon - 44,786 -> 85,821
 Random,x,44,85
 Random,y,786,821
-ControlClick, % "x" x " y" y,mobile - dragalia,,,,NA Pos
-return
-
-`:: ; Auto Toggle 419,235 -> 444,248
-Random,x,419,444
-Random,y,235,248
 ControlClick, % "x" x " y" y,mobile - dragalia,,,,NA Pos
 return
 
@@ -59,7 +53,39 @@ Random,y,100,107
 ControlClick, % "x" x " y" y,mobile - dragalia,,,,NA Pos
 return
 
+; use this for swapping characters now
+; `:: ; Auto Toggle 419,235 -> 444,248
+; Random,x,419,444
+; Random,y,235,248
+; ControlClick, % "x" x " y" y,mobile - dragalia,,,,NA Pos
+; return
 
+`:: ; Switcher 44,901 -> 99,962
+Random,x,44,99
+Random,y,901,962
+ControlClick, % "x" x " y" y,mobile - dragalia,,,,NA Pos
+return
 
+q:: ; Character 1 34,123 -> 49,137
+Random,x,34,49
+Random,y,123,137
+ControlClick, % "x" x " y" y,mobile - dragalia,,,,NA Pos
+return
 
+w:: ; Character 2 34,180 -> 49,190
+Random,x,34,49
+Random,y,180,190
+ControlClick, % "x" x " y" y,mobile - dragalia,,,,NA Pos
+return
 
+e:: ; Character 3 34,232 -> 49,246
+Random,x,34,49
+Random,y,232,246
+ControlClick, % "x" x " y" y,mobile - dragalia,,,,NA Pos
+return
+
+r:: ; Character 4 34,288 -> 49,302
+Random,x,34,49
+Random,y,288,302
+ControlClick, % "x" x " y" y,mobile - dragalia,,,,NA Pos
+return
