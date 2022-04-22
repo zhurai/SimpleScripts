@@ -9,6 +9,9 @@
 
 //  This script removes the embedded "popups" that show up on bilibili videos that (on it's release) you couldn't remove or move so you couldn't see what was behind it on the video
 //       Those popups generally asked you to vote on either how you thought about the video (1~5, and showed it in the danmaku chat) or tried to get you to subscribe to their channel
+//  
+// (Have not tested this in awhile, need to find a video that still uses this to try it as there was an update to the bilibili player's html DOM names)
+// 
 
 waitForKeyElements (".bilibili-player-video-popup-vote", removeVote);
 waitForKeyElements (".bilibili-player-video-popup-item", removeSubscribe);
