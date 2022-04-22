@@ -1,0 +1,2 @@
+# zhurai Discord Carlbot Scripts
+ 
