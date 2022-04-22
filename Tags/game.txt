@@ -1,0 +1,2 @@
+{redirect:934158589151543316}{=(r):{if({args}==Arknights):935419445080367125|{if({args}==Revived Witch):0|0}}}
+{=():}{and({r}!=0|{contains(935368504910159892):{user(roleids)}}==true):<@&{r}> zhurai's stream game has been updated to {args}|{silent}}
