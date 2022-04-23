@@ -8,7 +8,7 @@
 // ==/UserScript==
 
 // This script automatically clicks on the web fullscreen button when you open a bilibili page
-//      This is not a regular windows fullscreen that you would see in youtube full screen, this button just makes 
+//      This is not a regular windows fullscreen that you would see in youtube full screen, this button just makes the screen take up the available space on the screen
 // 
 // Version 1.0: Initial Script
 // Version 1.1: Fixed the Classnames used as the bilibili player changed classnames for everything
