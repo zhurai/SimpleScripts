@@ -22,9 +22,54 @@ if not (A_IsAdmin or RegExMatch(full_command_line, " /restart(?!\S)"))
 LWin & F12::Send {PrintScreen}
 ; [Screenshot]
 
-; Steam Another Eden
-#IfWinActive ahk_exe AnotherEden.exe
+; LDPlayer
+#IfWinActive ahk_exe dnplayer.exe
 
 f1:: 
-Run,"C:\\Program Files (x86)\\AutoIt3\\AutoIt3.exe" "C:\\Users\\zhurai\\Google Drive\\Personal Sync\\Scripts-Autoit\\volume.au3"
-; [mute]
+Send, ^{-}
+return
+; [Lower Volume]
+
+f3::
+Send, ^0
+return
+; Screenshot
+
+^f1::
+return
+; disable ctrl+f1
+
+^2::
+return
+; disable ctrl+2
+
+^3::
+return
+; disable ctrl+3
+
+^4::
+return
+; disable ctrl+4
+
+^5::
+return
+; disable ctrl+5
+
+^6::
+return
+; disable ctrl+6
+
+^7::
+return
+; disable ctrl+7
+
+^8::
+return
+; disable ctrl+8
+
+^9::
+return
+; disable ctrl+9
+
+LWin::
+return

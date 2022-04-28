@@ -23,31 +23,12 @@ if not (A_IsAdmin or RegExMatch(full_command_line, " /restart(?!\S)"))
 LWin & F12::Send {PrintScreen}
 ; [Screenshot]
 
-; AK+GFL Tryhard Emulator
-#IfWinActive ahk_exe NemuPlayer.exe
-
-f1::
-Send ^m
-return
-; [mute]
-
-esc::
-return
-; [no back]
-
 ; Counter Side
 #IfWinActive ahk_exe CounterSide.exe
 
 f1:: 
 Send, m
 return
-; [mute]
-
-; PrincessConnectReDive
-#IfWinActive ahk_exe PrincessConnectReDive.exe
-
-f1:: 
-Run,"C:\\Program Files (x86)\\AutoIt3\\AutoIt3.exe" "D:\\GoogleDrive\\Personal Sync\\Scripts-Autoit\\volume.au3"
 ; [mute]
 
 ; LDPlayer
@@ -100,41 +81,4 @@ return
 ; disable ctrl+9
 
 LWin::
-return
-
-; Bluestacks
-#IfWinActive ahk_exe HD-Player.exe
-
-f1:: 
-Send, ^+{F1}
-return
-; [mute]
-
-f2:: 
-Send, ^+{F2}
-return
-; [macros]
-
-f3:: 
-Send, ^+{F3}
-return
-; [screenshots]
-
-; DMM Alchemy Stars
-#IfWinActive ahk_exe alchemystars.exe
-
-f1:: 
-Run,"C:\\Program Files (x86)\\AutoIt3\\AutoIt3.exe" "D:\\GoogleDrive\\Personal Sync\\Scripts-Autoit\\volume.au3"
-; [mute]
-
-
-; GBF
-#IfWinActive ahk_exe vivaldi.exe
-
-`::
-Send !b
-return
-
-MButton::
-Send {F5}
 return
