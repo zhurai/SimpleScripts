@@ -23,6 +23,11 @@ if not (A_IsAdmin or RegExMatch(full_command_line, " /restart(?!\S)"))
 LWin & F12::Send {PrintScreen}
 ; [Screenshot]
 
+LWin::
+Send, ^+{F15}
+return
+; [Launchy]
+
 ; Counter Side
 #IfWinActive ahk_exe CounterSide.exe
 
