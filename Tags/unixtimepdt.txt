@@ -1,0 +1,4 @@
+{assign(theinput):{args(1)}-{args(2)}-{args(3)} {args(4)}:{args(5)}:00}
+{assign(unixtime1):{strf({theinput}):%s}}
+{assign(unixtime2):{strf({m:trunc({unixtime1}+25200)}):%s}}
+{unixtime2} - <t:{unixtime2}:R> - <t:{unixtime2}:F>
