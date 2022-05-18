@@ -1,1 +1,0 @@
-.\Vysor\vysor-dragalialost.ahk = GDRIVE\Personal Sync\Scripts-AutoHotKey\vysor-dragalialost.ahk
