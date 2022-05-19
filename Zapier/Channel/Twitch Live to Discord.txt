@@ -1,0 +1,14 @@
+[Trigger]
+Service: Twitch.TV
+Event: New Live Stream by Streamer
+Streamer: zhurai
+
+[Action]
+Service: Discord
+Event: Send Channel Message
+Channel: zhurai's Server
+Action Location: #livestream-notifications
+Action Text: <@&934609304907022377> zhurai has gone live on the Twitch Channel! - "{{144389211__title}}"\nWatch it here: {{144389211__streamer_info__stream_url}}
+
+[Note] 
+- <@&934609304907022377> is to ping a specific role in Discord
