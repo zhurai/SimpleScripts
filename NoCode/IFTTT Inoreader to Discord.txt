@@ -1,0 +1,11 @@
+[Trigger]
+Service: Inoreader
+Event: New article in folder
+Folder: Games (AK)
+
+[Action]
+Service: Discord
+Event: Post a message to a channel
+Channel: zhurai's Server
+Action Location: #ak-raider-groups
+Action Text: **Raider Group Post**: ({{ArticleAuthor}})<br>{{ArticleTitle}} -  {{ArticleCanonicalURL}}<br> {{ArticleContent}}<br>
