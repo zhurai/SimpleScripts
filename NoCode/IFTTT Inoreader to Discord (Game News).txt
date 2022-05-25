@@ -1,0 +1,11 @@
+[Trigger]
+Service: Inoreader
+Event: New article in folder
+Folder: Games (News)
+
+[Action]
+Service: Discord
+Event: Post a message to a channel
+Channel: zhurai's Server
+Action Location: #game-news
+Action Text: {{ArticleFeedTitle}} - {{ArticleTitle}} <br>{{ArticleCanonicalURL}}<br>{{ArticleContent}}
