@@ -1,18 +1,26 @@
 # SimpleScripts
- 
+These are snippets and code created for my personal use, but are not associated with a larger project to be added into it's own repository.  
+Many of these are code I have created to automate my specific computer setup, so a majority of this repository could and should be treated as a sort of dotfile repository.
+
 /AutoHotkeyScripts/
-Personal AHK Scripts (previous commits are from merging the defunct zhurai/AutoHotkeyScripts repository)
+Personal AutoHotkey Scripts. This folder should be treated as a dotfile respository.
+
+/AutoItScripts/
+Personal AutoIt Scripts that are not associated with computer startup.
 
 /CarlbotScripts/
-Carlbot Scripts used in zhurai's Discord (previous commits are from merging the defunct zhurai/Discord-Carlbot-Scripts repository)
+These "scripts" are used in zhurai's Discord within Carl Bot (carl.gg) considering Carlbot's code formatting on its dashboard. 
 
 /GreaseMonkeyScripts/ 
-These are just personal scripts I use for various usecases in GreaseMonkey/TamperMonkey on my browsers (in the past or currently)
-You would open these (.js file) in a text editor and copy paste these into your greasemonkey/tampermonkey script area 
-(previous commits are from merging the defunct zhurai/GreaseMonkey-Scripts repository)
+These are scripts I use for various usecases in GreaseMonkey/TamperMonkey on my browsers (in the past or currently).
+You would copy and paste these into your greasemonkey/tampermonkey script area to use these scripts.
+
+/NoCode/
+These are snippets on IFTTT/Zapier ("No Code" Automation vendors) that I have created to automate certain tasks.
 
 /PythonScripts/
-Assorted scripts in python that are not associated with a particular bigger project. Usually to automate something.
+Assorted scripts in python that are not associated with a bigger project, usually to automate something. May or may not be used in a scheduled task/cronjob.
 
 /ScheduledTasks/
-Scripts and Task setups that I use personally in my Windows Scheduled Tasks for automation/better ease of use
+Scripts and Tasks used in Windows Scheduled Tasks for automation. 
+This folder should be treated as a dotfile respository
