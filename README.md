@@ -1,19 +1,20 @@
-# SimpleScripts
-These are snippets and code created for my personal use, but are not associated with a larger project to be added into it's own repository.  
-Many of these are code I have created to automate my specific computer setup, so a majority of this repository could and should be treated as a sort of dotfile repository.
+# misc-scripts
+A collection of miscellaneous scripts that I have written, most of them to automate a specific task. This repository is seperated into different Folders
 
-/AutoItScripts/
-Personal AutoIt Scripts that are not associated with computer startup.
+## /AutoIt/
+AutoIt scripts not associated with my computer startup routines (where you would find in my [StartupScripts repository](https://github.com/zhurai/StartupScripts))
 
-/CarlbotScripts/
-These "scripts" are used in zhurai's Discord within Carl Bot (carl.gg) considering Carlbot's code formatting on its dashboard. 
+## /DiscordCarlbot/
+These scripts are used with the Discord Bot called "[Carl Bot](https://carl.gg/)"
 
-/GreaseMonkeyScripts/ 
-These are scripts I use for various usecases in GreaseMonkey/TamperMonkey on my browsers (in the past or currently).
-You would copy and paste these into your greasemonkey/tampermonkey script area to use these scripts.
+## /Greasemonkey/ 
+These are Javascript scripts for GreaseMonkey/TamperMonkey. You would need to copy these into your browser as a userscript.
 
-/NoCode/
+## /NoCode/
 These are snippets on IFTTT/Zapier ("No Code" Automation vendors) that I have created to automate certain tasks.
 
-/PythonScripts/
-Assorted scripts in python that are not associated with a bigger project, usually to automate something. May or may not be used in a scheduled task/cronjob.
+## /Powershell/
+Assorted Powershell scripts
+
+## /Python/
+Assorted Python scripts.
