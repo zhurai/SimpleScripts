@@ -1,5 +1,5 @@
-# Greasemonkey Scripts
-To use these Greasemonkey/Tampermonkey scripts, you need to open the javascript file and copy it into a New Userscript.
+# Userscripts
+To use these Greasemonkey/Tampermonkey scripts, you need to open the javascript file and copy it as a userscript.
 
 - **bilibili-autoUnMute.js** - Automatically unmutes Bilibili videos *(archived)*
 - **bilibili-fullScreen.js** - Automatically fullscreens Bilibili videos
