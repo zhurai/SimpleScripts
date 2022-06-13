@@ -6,4 +6,4 @@ ROBOCOPY "D:\GitHub\personal\StartupScripts\AutoIt\pc3" "D:\GoogleDrive\Personal
 :: Sync AutoHotkey Scripts to GDrive
 ROBOCOPY "D:\GitHub\personal\StartupScripts\AutoHotkeyScripts" "D:\GoogleDrive\Personal Sync\Scripts-AutoHotKey" /MIR /R:x /W:x
 :: Sync Robocopy Scripts to GDrive
-ROBOCOPY "D:\GitHub\personal\StartupScripts\BAT\Robocopy" "D:\GoogleDrive\Personal Sync\Scripts-BAT\Robocopy" /MIR /R:x /W:x
+ROBOCOPY "D:\GitHub\personal\misc-scripts\BAT\Robocopy" "D:\GoogleDrive\Personal Sync\Scripts-BAT\Robocopy" /MIR /R:x /W:x
