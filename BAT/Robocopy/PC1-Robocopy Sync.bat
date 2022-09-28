@@ -13,7 +13,8 @@ ROBOCOPY "D:\GitHub\personal\livestream" "D:\PersonalSync\Livestream" /MIR /R:x 
 ROBOCOPY "D:\PersonalSync\Applications\KP" "D:\GoogleDrive\Personal Sync\KP" /MIR /R:x /W:x
 :: Sync Scripts to GoogleDrive
 ROBOCOPY "D:\PersonalSync\Scripts" "D:\GoogleDrive\Personal Sync\Scripts" /MIR /R:x /W:x
-:: Sync Task Warrior Scripts
-ROBOCOPY "D:\GitHub\personal\taskwarrior-scripts" "D:\PersonalSync\Applications\TaskWarrior\scripts" /MIR /R:x /W:x /XD .git /XD commit-scripts /XF .gitignore /XF .gitattributes /XD .old
 :: Sync Bluetooth Scripts
 ROBOCOPY "D:\GitHub\personal\misc-scripts\BAT\Bluetooth" "D:\PersonalSync\Scripts\Bluetooth" /MIR /R:x /W:x
+:: Sync Task Warrior Scripts
+ROBOCOPY "D:\GitHub\personal\taskwarrior-scripts" "D:\PersonalSync\Applications\TaskWarrior\scripts" /MIR /R:x /W:x /XD .git /XD commit-scripts /XF .gitignore /XF .gitattributes /XD .old
+
