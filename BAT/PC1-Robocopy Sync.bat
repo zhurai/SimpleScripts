@@ -18,7 +18,7 @@ ROBOCOPY "D:\PersonalSync\Applications\TaskWarrior" "D:\GitHub\personal\dotfiles
 :: Sync WindowManager Config to Dotfiles (GitHub)
 ROBOCOPY "D:\PersonalSync\Applications\WindowManager" "D:\GitHub\personal\dotfiles\window-manager" /MIR /R:x /W:x /XF "WindowManager-Hana Fu.DeskSoftLicense" /XF update-git.py /XF gitpush.ps1
 :: Sync Newsboat Config to Dotfiles (GitHub)
-ROBOCOPY "D:\PersonalSync\Applications\Newsboat" "D:\GitHub\personal\dotfiles\newsboat" /MIR /R:x /W:x /XF history.cmdline /XF cache.db 
+ROBOCOPY "D:\PersonalSync\Applications\Newsboat" "D:\GitHub\personal\dotfiles\newsboat" /MIR /R:x /W:x /XF history.cmdline /XF cache.db /XF cache.db.lock
 :: Sync Obsidian Automation Scripts to Obsidian 0.01 and 0.02
 ROBOCOPY "D:\GitHub\personal\obsidian-scripts\scripts" "D:\PersonalSync\Applications\Obsidian\0 Management\01 Automation Scripts" /MIR /R:x /W:x 
 ROBOCOPY "D:\GitHub\personal\obsidian-scripts\templates" "D:\PersonalSync\Applications\Obsidian\0 Management\02 Automation Templates" /MIR /R:x /W:x 
