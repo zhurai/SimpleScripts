@@ -19,8 +19,6 @@ ShellExecute('D:\PersonalSync\Scripts\AutoHotKey\pc1.ahk')
 Run("C:\Program Files\Greenshot\Greenshot.exe")
 ; Keepass
 Run("C:\Program Files\KeePassXC\KeePassXC.exe")
-; Obsidian.md
-Run("C:\Users\zhurai\AppData\Local\Obsidian\Obsidian.exe","C:\Users\zhurai\AppData\Local\Obsidian")
 ; PolyMC
 Run("C:\Minecraft\PolyMC\polymc.exe", "C:\Minecraft\PolyMC")
 ; Wait
