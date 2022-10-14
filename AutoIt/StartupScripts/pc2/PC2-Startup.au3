@@ -34,10 +34,6 @@ Sleep (15000)
 Run("C:\Users\zhurai\AppData\Local\Obsidian\Obsidian.exe","C:\Users\zhurai\AppData\Local\Obsidian")
 Sleep (15000)
 
-; GFAlarm
-Run("C:\Personal\Programs\GFAlarm\GFAlarm.exe", "C:\Personal\Programs\GFAlarm")
-Sleep(15000)
-
 ; OBS
 Run("C:\Program Files\obs-studio\bin\64bit\obs64.exe", "C:\Program Files\obs-studio\bin\64bit")
 Sleep (15000)
