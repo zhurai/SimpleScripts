@@ -42,10 +42,6 @@ Sleep (15000)
 Run("C:\Program Files (x86)\Chatty\Chatty.exe")
 Sleep (15000)
 
-; WSL (must use 64bit autoit to run the wsl binary)
-RunWait("C:\Program Files (x86)\AutoIt3\AutoIt3_x64.exe C:\PersonalSync\Scripts\AutoIt\pc2\PC2-WSL-64bit.au3")
-Sleep (15000)
-
 ; Discord
 Run ('C:\Users\zhurai\AppData\Local\Discord\Update.exe' & ' --processStart Discord.exe')
 Sleep (15000)
