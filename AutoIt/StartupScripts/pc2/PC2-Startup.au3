@@ -42,6 +42,10 @@ Sleep (15000)
 Run("C:\Program Files (x86)\Chatty\Chatty.exe")
 Sleep (15000)
 
+; SecureCRT
+Run("C:\Program Files\VanDyke Software\SecureCRT\SecureCRT.exe")
+Sleep(15000)
+
 ; Discord
 Run ('C:\Users\zhurai\AppData\Local\Discord\Update.exe' & ' --processStart Discord.exe')
 Sleep (15000)

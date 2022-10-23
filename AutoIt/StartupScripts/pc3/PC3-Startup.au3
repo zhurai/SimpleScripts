@@ -14,6 +14,10 @@ Run("C:\Personal\Programs\syncthing\syncthing.exe --no-console --no-browser","C:
 Run("C:\Program Files\KeePassXC\KeePassXC.exe")
 Sleep(15000)
 
+; SecureCRT
+Run("C:\Program Files\VanDyke Software\SecureCRT\SecureCRT.exe")
+Sleep(15000)
+
 ; Firefox
 Run ("C:\Program Files\Mozilla Firefox\firefox.exe")
 ; Discord

@@ -30,6 +30,8 @@ Run("C:\Program Files (x86)\Launchy\Launchy.exe /show")
 Run("C:\Program Files (x86)\Steam\Steam.exe","C:\Program Files (x86)\Steam")
 ; Blizzard Launcher
 Run("D:\BlizzardLauncher\Battle.net\Battle.net Launcher.exe","D:\BlizzardLauncher\Battle.net")
+; SecureCRT
+Run("C:\Program Files\VanDyke Software\SecureCRT\SecureCRT.exe")
 ; Wait
 Sleep (15000)
 
