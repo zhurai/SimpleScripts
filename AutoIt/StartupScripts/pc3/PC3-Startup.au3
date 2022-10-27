@@ -23,3 +23,8 @@ Run ("C:\Program Files\Mozilla Firefox\firefox.exe")
 ; Discord
 Run ('C:\Users\zhurai\AppData\Local\Discord\Update.exe' & ' --processStart Discord.exe')
 Sleep (15000)
+
+; Run the GUI (since Home/Work/etc have different programs to open)
+Run('"' & @AutoItExe & '" /AutoIt3ExecuteScript "' & "C:\PersonalSync\Scripts\Autoit\pc3\PC3-AutostartGUI.au3" & '"')
+Sleep (15000)
+

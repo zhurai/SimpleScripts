@@ -1,2 +1,2 @@
-Opt("SendKeyDownDelay", 100)
-Send ('^!1')
+; Opt("SendKeyDownDelay", 100)
+; Send ('^!1')
