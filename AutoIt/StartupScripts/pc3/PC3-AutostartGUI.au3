@@ -11,9 +11,8 @@ Func AutostartPC3GUI()
         Local $idButton_Home = GUICtrlCreateButton("Run Home Apps",10,0,90)
         Local $idButton_Work = GUICtrlCreateButton("Run Work Apps",10,30,90)
         Local $idButton_Close = GUICtrlCreateButton("Close",350,350)
-		; Create Inputs
-		;Local $idInput_SynergyHome=GUICtrlCreateInput("192.168.7.3",110,0,100)
-		Local $idInput_SynergyWork=GUICtrlCreateInput("192.168.61.71",110,30,100)
+	; Create Inputs
+	Local $idInput_SynergyWork=GUICtrlCreateInput("192.168.61.71",110,30,100)
 
         ; Display the GUI
         GUISetState(@SW_SHOW, $hGUI)
@@ -29,8 +28,12 @@ Func AutostartPC3GUI()
                                 ExitLoop
 
                         Case $idButton_Work
-                                ; Run SynergyC with the window maximized.
+                                ; Run SynergyC with the window minimized.
                                 $iPID = Run("C:\Program Files\Synergy\synergyc.exe " & GUICtrlRead($idInput_SynergyWork), "",@SW_HIDE)
+                                ; Run BS_MultiInstance
+                                $iPID = Run("C:\Program Files\BlueStacks_nxt\HD-MultiInstanceManager.exe", "",@SW_HIDE)                                
+                                ; Run Obsidian
+                                $iPID = Run("C:\Users\zhurai\AppData\Local\Obsidian\Obsidian.exe", "",@SW_HIDE)
                                 ExitLoop
                 EndSwitch
         WEnd
