@@ -28,3 +28,7 @@ Sleep (15000)
 Run('"' & @AutoItExe & '" /AutoIt3ExecuteScript "' & "C:\PersonalSync\Scripts\Autoit\pc3\PC3-AutostartGUI.au3" & '"')
 Sleep (15000)
 
+; Make the GUI above everything else
+Sleep (15000)
+WinActivate("Autostart")
+
