@@ -19,36 +19,42 @@ if not (A_IsAdmin or RegExMatch(full_command_line, " /restart(?!\S)"))
     ExitApp
 }
 
-; Global
-LWin & F12::Send {PrintScreen}
-; [Screenshot]
-
-; Launchy
-LWin::
-Send, ^+{F15}
-return
-; [Activate Launchy]
+; Global 
+; - Screenshot
+LWin & F12::Send {PrintScreen} 
+; - Disable Feedback Hub, redirect to find
+#f::Send ^p
+; - Disable Cortana, redirect to copy
+#c::Send ^c
+; - Disable Clipboard History, redirect to paste
+#v::Send ^v 
 
 ; Firefox
+; - Disable "BIDI text direction" while attempting to cut and paste
 #IfWinActive ahk_exe firefox.exe
 ^+x::
 Return
-; [QOL] disable "BIDI text direction" while attempting to cut and paste
+
+; Launchy
+; - Activate Launchy
+LWin::
+Send, ^+{F15}
+return
 
 ; MuMu
 #IfWinActive ahk_exe NemuPlayer.exe
+; - Toggle mute
 f1::
 Send, ^m
 Return
-; [toggle mute]
+; - Screenshot
 f2::
 Send, !q
 Return
-; [Screenshot]
 
 ; Counter Side
 #IfWinActive ahk_exe CounterSide.exe
+; toggle mute
 f1:: 
 Send, m
 return
-; [toggle mute]
