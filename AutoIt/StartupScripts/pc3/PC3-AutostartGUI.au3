@@ -34,6 +34,10 @@ Func AutostartPC3GUI()
                                 $iPID = Run("C:\Program Files\BlueStacks_nxt\HD-MultiInstanceManager.exe", "",@SW_HIDE)                                
                                 ; Run Obsidian
                                 $iPID = Run("C:\Users\zhurai\AppData\Local\Obsidian\Obsidian.exe", "",@SW_HIDE)
+                                ; Wait 15 seconds
+                                Sleep (15000)
+                                ; Activate the MultiInstanceManager
+                                WinActivate("BlueStacks Multi Instance Manager")
                                 ExitLoop
                 EndSwitch
         WEnd
