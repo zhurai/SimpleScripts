@@ -22,9 +22,12 @@ Func AutostartPC3GUI()
                 Switch GUIGetMsg()
                         Case $GUI_EVENT_CLOSE, $idButton_Close
                                 ExitLoop
+
                         Case $idButton_Home
                                 ; Run Nothing More
                                 ; $iPID = Run("notepad.exe", "", @SW_SHOWMAXIMIZED)
+                                ; Run Discord
+                                $iPID = Run ('C:\Users\zhurai\AppData\Local\Discord\Update.exe' & ' --processStart Discord.exe', @SW_HIDE)
                                 ExitLoop
 
                         Case $idButton_Work

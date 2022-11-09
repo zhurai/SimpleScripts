@@ -20,8 +20,6 @@ Sleep(15000)
 
 ; Firefox
 Run ("C:\Program Files\Mozilla Firefox\firefox.exe")
-; Discord
-Run ('C:\Users\zhurai\AppData\Local\Discord\Update.exe' & ' --processStart Discord.exe')
 Sleep (15000)
 
 ; Run the GUI (since Home/Work/etc have different programs to open)
