@@ -28,6 +28,10 @@ Func AutostartPC3GUI()
                                 ; $iPID = Run("notepad.exe", "", @SW_SHOWMAXIMIZED)
                                 ; Run Discord
                                 $iPID = Run ('C:\Users\zhurai\AppData\Local\Discord\Update.exe' & ' --processStart Discord.exe', @SW_HIDE)
+                                ; RunFirefox
+                                $iPID = Run ("C:\Program Files\Mozilla Firefox\firefox.exe")
+                                ; Run Slack
+                                $iPID = Run ("C:\Users\zhurai\AppData\Local\slack\slack.exe","C:\Users\zhurai\AppData\Local\slack\app-4.28.184")
                                 ExitLoop
 
                         Case $idButton_Work
@@ -39,7 +43,7 @@ Func AutostartPC3GUI()
                                 $iPID = Run("C:\Users\zhurai\AppData\Local\Obsidian\Obsidian.exe", "C:\Users\zhurai\AppData\Local\Obsidian", @SW_HIDE)
                                 ; Wait 15 seconds
                                 Sleep (15000)
-                                ; Activate the MultiInstanceManager
+                                ; Activate the MultiInstanceManager Window
                                 WinActivate("BlueStacks Multi Instance Manager")
                                 ExitLoop
                 EndSwitch

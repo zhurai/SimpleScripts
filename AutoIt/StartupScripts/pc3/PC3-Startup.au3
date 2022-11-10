@@ -18,10 +18,6 @@ Sleep(15000)
 Run("C:\Program Files\VanDyke Software\SecureCRT\SecureCRT.exe")
 Sleep(15000)
 
-; Firefox
-Run ("C:\Program Files\Mozilla Firefox\firefox.exe")
-Sleep (15000)
-
 ; Run the GUI (since Home/Work/etc have different programs to open)
 Run('"' & @AutoItExe & '" /AutoIt3ExecuteScript "' & "C:\PersonalSync\Scripts\Autoit\pc3\PC3-AutostartGUI.au3" & '"')
 Sleep (15000)
