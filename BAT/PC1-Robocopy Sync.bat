@@ -4,7 +4,7 @@ ROBOCOPY "D:\GitHub\personal\misc-scripts\AutoIt\StartupScripts" "D:\PersonalSyn
 ROBOCOPY "D:\GitHub\personal\misc-scripts\AutoHotKey\StartupScripts" "D:\PersonalSync\Scripts\AutoHotKey" /MIR /R:x /W:x
 
 :: Sync Robocopy Script (BAT) to PersonalSync (Syncthing)
-ROBOCOPY "D:\Gi2222222222222222222tHub\personal\misc-scripts\BAT" "D:\PersonalSync\Scripts\Sync" "PC1-Robocopy Sync.bat"  /MIR /R:x /W:x
+ROBOCOPY "D:\GitHub\personal\misc-scripts\BAT" "D:\PersonalSync\Scripts\Sync" "PC1-Robocopy Sync.bat"  /MIR /R:x /W:x
 :: Sync Bluetooth Scripts (BAT) to PersonalSync (Syncthing)
 ROBOCOPY "D:\GitHub\personal\misc-scripts\BAT\Bluetooth" "D:\PersonalSync\Scripts\Bluetooth" /MIR /R:x /W:x
 
