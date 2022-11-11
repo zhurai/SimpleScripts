@@ -38,9 +38,9 @@ Func AutostartPC3GUI()
                                 ; Run SynergyC with the window minimized.
                                 $iPID = Run("C:\Program Files\Synergy\synergyc.exe " & GUICtrlRead($idInput_SynergyWork), "",@SW_HIDE)
                                 ; Run BS_MultiInstance
-                                $iPID = Run("C:\Program Files\BlueStacks_nxt\HD-MultiInstanceManager.exe", "",@SW_HIDE)                                
+                                $iPID = Run("C:\Program Files\BlueStacks_nxt\HD-MultiInstanceManager.exe", "")
                                 ; Run Obsidian
-                                $iPID = Run("C:\Users\zhurai\AppData\Local\Obsidian\Obsidian.exe", "C:\Users\zhurai\AppData\Local\Obsidian", @SW_HIDE)
+                                $iPID = Run("C:\Users\zhurai\AppData\Local\Obsidian\Obsidian.exe", "C:\Users\zhurai\AppData\Local\Obsidian", @SW_MINIMIZE)
                                 ; Wait 15 seconds
                                 Sleep (15000)
                                 ; Activate the MultiInstanceManager Window
