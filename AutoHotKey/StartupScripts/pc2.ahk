@@ -21,12 +21,16 @@ if not (A_IsAdmin or RegExMatch(full_command_line, " /restart(?!\S)"))
 ; Global 
 ; - Screenshot
 LWin & F12::Send {PrintScreen} 
+Return
 ; - Disable Feedback Hub, redirect to find
 #f::Send ^p
+Return
 ; - Disable Cortana, redirect to copy
 #c::Send ^c
+Return
 ; - Disable Clipboard History, redirect to paste
 #v::Send ^v 
+Return
 
 ; Firefox
 ; - Disable "BIDI text direction" while attempting to cut and paste
